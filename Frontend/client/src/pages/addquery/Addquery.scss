@@ -1,0 +1,17 @@
+@import "../../style.scss";
+
+.queryadd{
+ 
+  .space
+  {
+   color:transparent
+  }
+  @include themify($themes) {
+    padding: 20px 70px;
+    background-color: themed("bgSoft");
+    height:100vh;
+
+  
+  }
+ 
+ }

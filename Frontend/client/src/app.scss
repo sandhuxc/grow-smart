@@ -1,0 +1,11 @@
+
+@import "./style.scss";
+.abc
+{
+    @include themify($themes) {
+      flex: 4;
+      padding: 20px 70px;
+      background-color: themed("bgSoft");
+     height: fit-content;
+    }
+}
