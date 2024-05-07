@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.reset2 {
+    background-color: #daeef6;
+    font-size: 14px;
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  user-select: none;
+
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+.reset_wrapper{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.reset_form_wrapper{
+  display: flex;
+}
+
+.reset_form_wrapper .form_ele{
+  width: 425px;
+  max-width: 100%;
+  background: linear-gradient(rgba(182, 226, 255, 0.654), rgba(255, 208, 198, 0.5));
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.reset_form_wrapper .form_ele:not(:last-child){
+  margin-right: 30px;
+}
+
+.reset_form_wrapper .form_ele .img_section{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset_form_wrapper .form_ele .img_section img{
+  width: 150px;
+
+}
+
+.reset_form_wrapper .form_ele .title_reset p{
+  color: #1894c5;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.reset_form_wrapper .form_ele .reset1{
+  height: calc(100% - 214px);
+}
+
+.reset_form_wrapper .form_ele .reset1 .form_grp_reset{
+  height: calc(100% - 54px);
+}
+
+.form_wrapper .form_ele .form_head_reset {
+    height: calc(100% - 38px);
+}
+
+.form_wrapper .form_ele .form_item_reset,
+.form_wrapper .form_ele .form_info_reset{
+  margin-bottom: 15px;
+}
+
+.reset_form_wrapper .form_ele .form_item_reset .label_reset{
+  margin-bottom: 10px;
+}
+
+.reset_form_wrapper .form_ele .form_item_reset .input_reset{
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1.5px solid var(--border-clr);
+  transition: all 0.5s ease;
+}
+
+.reset_form_wrapper .form_ele .form_item_reset .input_reset:focus{
+  border-color: white;
+}
+
+.reset_form_wrapper .form_ele .form_info_reset a{
+  transition: all 0.5s ease;
+  color: var(--link-clr);
+}
+
+.reset_form_wrapper .form_ele .form_info_reset a:hover{
+  color: white;
+}
+
+.reset_form_wrapper .form_ele .r_button{
+  background: #659dbd;
+  color: white;
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.reset_form_wrapper .form_ele .r_button:hover{
+  background: linear-gradient(rgba(182, 226, 255, 0.654), rgba(255, 208, 198, 0.5));
+}

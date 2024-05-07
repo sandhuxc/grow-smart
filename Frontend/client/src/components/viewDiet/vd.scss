@@ -1,0 +1,120 @@
+
+
+.head_table1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 210px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+}
+
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.center-card1 {
+    flex-grow: 1;
+    margin-top: 230px;
+    /* move the card down to make room for the header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* center the content vertically */
+}
+
+.center-card1>header {
+    margin-bottom: 20px;
+}
+
+.center-card1>header>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card1 {
+    width: 100%;
+    max-width: 1500px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.card1 h2{
+    justify-content: center;
+    text-align: center;
+}
+.diet_table1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.diet_table1 th,
+.diet_table1 td {
+    text-align: left;
+    padding: 10px;
+}
+
+.diet_table1 th {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.diet_table1 td {
+    border-bottom: 1px solid #eee;
+}
+
+.diet_table1 td:last-child {
+    text-align: center;
+}
+
+.diet_table1 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f7da;
+    cursor: pointer;
+}
+
+.diet_table1 button:hover {
+    background-color: #77ab59;
+    color:#fff;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .wrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-card1,
+    .right-card1 {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    .left-card1 {
+        margin-bottom: 20px;
+    }
+
+    .center-card1 {
+        margin-top: 20px;
+    }
+}

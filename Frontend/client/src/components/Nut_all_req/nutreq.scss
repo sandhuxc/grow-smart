@@ -1,0 +1,70 @@
+.nut1_req_container {
+    display: flex;
+
+}
+/*Attendance List serction  */
+.all_req_nut {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.allreq-list {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.table_req {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+table thead tr {
+    color: #fff;
+    background: #c9df8a;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table_req th,
+.table_req td {
+    padding: 12px 15px;
+}
+
+.table_req tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table_req tbody tr:nth-of-type(odd) {
+    background: #f3f3f3;
+}
+
+.table_req tbody tr.active {
+    font-weight: bold;
+    color: #659dbd;
+}
+
+.table_req tbody tr:last-of-type {
+    border-bottom: 2px solid #77ab59;
+}
+
+.table_req button {
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #77ab59;
+}
+
+.table_req button:hover {
+    background: #77ab59;
+    color: #fff;
+    transition: 0.5rem;
+}

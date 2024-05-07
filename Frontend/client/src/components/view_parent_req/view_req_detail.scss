@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.ppp_1_view {
+    background-color: #ffffff;
+}
+
+.Description_ppp {
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    
+}
+
+.main_des1_parent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-reqdes1_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-desreq1 {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.image-desreq1 .image-desreq2 {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.t-req1 {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.t-req1 th,
+.t-req1 td {
+    padding: 10px;
+    text-align: left;
+}
+
+.t-req1 th,
+.t-req1 td {
+    background-color: #e9fddd;
+}
+
+.t-req1.rounded {
+    border-radius: 10px;
+}
+
+.button-container-req1 {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button-req1 {
+    background-color: #77ab59;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button-req1:hover {
+    background-color: #eefbe9;
+    color: #77ab59;
+}

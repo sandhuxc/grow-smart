@@ -1,0 +1,70 @@
+.n_f{
+    background-color: #fff;
+}
+.Nutrition_survey-form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f6f0ff;
+}
+
+.head_nutrition {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nut_p_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field_nutform {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form_nut_p{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.in_nut-p[type="text"],
+.in_nut-p[type="number"],
+.in_nut-p[type="time"],
+.s_nut_p,
+.txt_nut_p {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.txt_nut_p {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+
+.btn_Nut_P[type="submit"] {
+    background-color: #4d10bf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
