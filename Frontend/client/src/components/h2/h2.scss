@@ -1,0 +1,86 @@
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.new-slide_d
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.new-slide1_d{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/35666/cooking-baby-only-kitchen.jpg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: changes 4s infinite ease-in-out;
+   
+}
+
+.nut_content1_d{
+   
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.nut_txt1_d{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.nut_content1_d h1{
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.nut_content_d h1 span{
+    color: #659dbd;
+}
+.nut_txt1_d .nut_txt1_d2{
+    background: transparent;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    color:#ffffff
+}
+.nut_txt1_d2:hover{
+    background: linear-gradient(rgba(233, 253, 231, 0.967), rgba(95, 252, 17, 0.87));
+    color: #080809;
+}
+
+@keyframes changes{
+    0%
+    {
+        background-image: url("https://images.pexels.com/photos/5093992/pexels-photo-5093992.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+    20%
+    {
+        background-image: url("https://images.pexels.com/photos/5905681/pexels-photo-5905681.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+    40%
+    {
+        background-image: url("https://images.pexels.com/photos/5966630/pexels-photo-5966630.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+    60%
+    {
+        background-image: url("https://images.pexels.com/photos/35545/watermelon-summer-little-girl-eating-watermelon-food.jpg?auto=compress&cs=tinysrgb&w=600");
+    }
+    80%
+    {
+        background-image: url("https://images.pexels.com/photos/6551415/pexels-photo-6551415.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+    100%
+    {
+        background-image: url("https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+}

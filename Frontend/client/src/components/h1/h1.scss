@@ -1,0 +1,107 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+body{
+    background: #f0ece2;
+  }
+  .w3-bar w3-center w3-padding w3-opacity-min w3-hover-opacity-off{
+    background: #659dbd;
+  }
+  .bgimg,
+ .bgimg2 {
+   min-height: 100%;
+   background-position: center;
+   background-size: cover;
+ }
+ .w3-modal-content w3-card-4 w3-animate-zoom{padding:32px;max-width:600px}
+.w3-button w3-round w3-red w3-opacity w3-hover-opacity-off{padding:8px 60px}
+ .bgimg {
+   background-image: url("https://images.pexels.com/photos/235554/pexels-photo-235554.jpeg?auto=compress&cs=tinysrgb&w=600")
+ }
+
+ .bgimg2 {
+   background-image: url("https://images.pexels.com/photos/1445704/pexels-photo-1445704.jpeg?auto=compress&cs=tinysrgb&w=600")
+ }
+.h1
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/286625/pexels-photo-286625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+   
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #659dbd;
+}
+.txt a{
+    background: transparent;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    color:#fff
+}
+.content a:hover{
+    background: linear-gradient(rgba(243, 200, 196, 0.967), rgba(188, 226, 243, 0.87));
+    color: #659dbd;
+}
+.w3-bar-item w3-button{width:25% ;}
+@keyframes change{
+    0%
+    {
+        background-image: url("https://images.pexels.com/photos/286625/pexels-photo-286625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+    20%
+    {
+        background-image: url("https://images.pexels.com/photos/5712013/pexels-photo-5712013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+    40%
+    {
+        background-image: url("https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+    60%
+    {
+        background-image: url("https://images.pexels.com/photos/51953/mother-daughter-love-sunset-51953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+    80%
+    {
+        background-image: url("https://images.pexels.com/photos/701014/pexels-photo-701014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+    100%
+    {
+        background-image: url("https://images.pexels.com/photos/3036405/pexels-photo-3036405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+}

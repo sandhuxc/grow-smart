@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+
+.f1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.containerfed {
+    display: flex;
+    height: 100vh;
+}
+
+.leftfed {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    animation-name: left;
+    animation-duration: 1s;
+    background-color: rgb(255, 255, 255);
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.rightfed {
+    flex: 4;
+    background-color: black;
+    transition: 1s;
+    background-image: linear-gradient(rgba(182, 226, 255, 0.654), rgba(255, 208, 198, 0.5)) ,url("https://cdn.pixabay.com/photo/2018/09/14/14/31/feedback-3677258__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.headerfed .animation1 {
+    margin: 0;
+    color: #4677a5;
+    text-align: center;
+}
+
+.headerfed .animation2 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #4677a5;
+}
+
+.formfed {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formfed>p {
+    text-align: right;
+}
+
+.formfed>p>a {
+    color: #000;
+    font-size: 14px;
+}
+
+.formfed .fields_event .event-details {
+    height: 200px;
+    width: 540px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    outline: 0;
+    transition: .2s;
+    resize: none;
+}
+.form-field:focus {
+    border-color: #0f7ef1;
+}
+
+.input-fields {
+    height: 46px;
+    width: 370px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    transition: .3s;
+    outline: 0;
+    resize: vertical;
+}
+
+.input-fields:focus {
+    border-color: #0f7ef1;
+}
+
+.formfed .animation3 {
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(rgba(245, 202, 198, 0.967), rgba(138, 218, 255, 0.87));
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #0f7ef1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.formfed .animation3:hover {
+    background-color: #449c82
+}
+
+.animation {
+    animation-name: move;
+    animation-duration: .4s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+.a1 {
+    animation-delay: 2s;
+}
+
+.a2 {
+    animation-delay: 2.1s;
+}
+
+.a3 {
+    animation-delay: 2.2s;
+}
+
+.a4 {
+    animation-delay: 2.3s;
+}
+
+.a5 {
+    animation-delay: 2.4s;
+}
+
+.a6 {
+    animation-delay: 2.5s;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+.rating {
+    flex:1;
+    align-self: center;
+   }
+   
+   .rating > input{ display:none;}
+   
+   .rating > label {
+     position: relative;
+       width: 1em;
+       font-size: 18px;
+       color: #f0a04b;
+       cursor: pointer;
+   }
+   .rating > label::before{ 
+     content: "\2605";
+     position: absolute;
+     opacity: 0;
+   }
+   .rating > label:hover:before,
+   .rating > label:hover ~ label:before {
+     opacity: 1 !important;
+   }
+   
+   .rating > input:checked ~ label:before{
+     opacity:1;
+   }
+   
+   .rating:hover > input:checked ~ label:before{ opacity: 0.4; }
+   
+@keyframes left {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    100% {
+        opacity: 1;
+        padding: 20px 40px;
+        width: 750px;
+    }
+}

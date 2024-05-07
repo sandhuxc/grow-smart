@@ -1,0 +1,158 @@
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.left-card2 {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 768px) {
+        width: 25%;
+        margin-bottom: 0;
+    }
+        h3 {
+            margin-bottom: 0.5rem;
+            margin-top: 100px;
+        }
+
+        h4 {
+            margin-bottom: 0.5rem;
+                     
+        }
+    
+        input {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            line-height: 1.5;
+    
+            &:focus {
+                outline: none;
+                border-color: #0077cc;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+        }
+    
+        button {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #e6b6eb;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 1.5;
+            cursor: pointer;
+    
+            &:hover {
+                background-color: #8db8e6;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+        }
+}
+
+.center-card2 {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+
+    .card2 {
+        width: 100%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 1rem;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-right: 50px;
+        }
+
+        @media screen and (min-width: 768px) {
+            padding: 2rem;
+            text-align: left;
+            /* add this line to align content inside center card */
+        }
+
+        .content {
+            /* add this block to keep content within card */
+            max-height: 100%;
+            overflow: auto;
+        }
+    }
+}
+
+.right-card2 {
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: 25%;
+    }
+
+         .card2 {
+             width: 100%;
+             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+             border-radius: 10px;
+             padding: 1rem;
+    
+            .tit {
+                margin-top: 100px;
+                 text-align: center;
+                 margin-bottom: 1rem;
+             }
+    
+             @media screen and (min-width: 768px) {
+                 padding: 2rem;
+                 text-align: left;
+                 /* add this line to align content inside center card */
+             }
+    
+             .content {
+                 /* add this block to keep content within card */
+                 max-height: 100%;
+                 overflow: auto;
+             }
+    
+             /* add this block to add styles to the content inside right card */
+             .card-content {
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+    
+                 span {
+                     display: block;
+                     margin-bottom: 0.5rem;
+                 }
+             }
+         }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper2 {
+        padding: 2rem;
+    }
+}

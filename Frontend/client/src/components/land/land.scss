@@ -1,0 +1,18 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {font-family: "Times New Roman", Georgia, Serif;
+    background-color:  lavenderblush;}
+    .w3-center {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+   
+    }
+    .w3-bar w3-LavenderBlush w3-padding w3-card{
+        letter-spacing:4px;
+    }
+    .w3-content {
+        max-width:1100px;
+        background: linear-gradient(rgba(245, 202, 198, 0.967), rgba(138, 218, 255, 0.87));
+    }
+    .w3-round w3-image w3-opacity-min{width:100%;}
